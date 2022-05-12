@@ -1,10 +1,13 @@
-<<<<<<< Updated upstream
 import Autocomplete from "@components/Autocomplete";
 import { Link } from "react-router-dom";
 import "../App.css";
+import Header from "@components/Header";
+import Carroussel from "@components/Carroussel";
 
 export default function Home() {
   return (
+<div className="BodyHome">
+    <Header />
     <div className="coverPage">
       <h1>Choose your city</h1>
       <div className="inputSearch">
@@ -65,21 +68,10 @@ export default function Home() {
         <Link to="/bordeaux">
           <h3>GO</h3>
         </Link>
+        
       </div>
+
     </div>
-=======
-
-import Header from "@components/Header";
-import Carroussel from "@components/Carroussel";
-
-export default function Home() {
-  return (
-    <>
-    <div>
-    <Header />
     <Carroussel />
     </div>
-    </>
->>>>>>> Stashed changes
-  );
-}
+)};
