@@ -127,13 +127,15 @@ class Autocomplete extends Component {
 
     return (
       <>
-        <input
-          type="text"
-          onChange={onChange}
-          onKeyDown={onKeyDown}
-          value={userInput}
-        />
-        {suggestionsListComponent}
+        <div>
+          <input
+            type="text"
+            onChange={onChange}
+            onKeyDown={onKeyDown}
+            value={userInput}
+          />
+          {suggestionsListComponent}
+        </div>
       </>
     );
   }
