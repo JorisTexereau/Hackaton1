@@ -2,10 +2,19 @@ import Autocomplete from "@components/Autocomplete";
 import { Link } from "react-router-dom";
 import "../App.css";
 import sendImage from "@assets/send.png";
+import Header from "@components/Header";
+import fond from "@assets/FondHome.jpg";
+
 
 export default function Home() {
   return (
+    <>
     <div className="coverPage">
+    <img className="Fond" src={fond} alt="fond" />
+    <div className="HeaderPage">
+      <Header />
+    </div>
+    
       <h1>Choose your city</h1>
       <div className="inputSearch">
         <Autocomplete
@@ -65,7 +74,7 @@ export default function Home() {
         <Link to="/bordeaux">
           <h3><img src={sendImage} alt="" /></h3>
         </Link>
+        </div>
       </div>
-    </div>
-  );
-}
+      </>
+)};

@@ -66,6 +66,7 @@ input[type="range"]::-moz-focus-outer {
   position: relative;
 }
 .pricing-slider input {
+
   width: 100%;
 }
 .pricing-slider .pricing-slider-value {

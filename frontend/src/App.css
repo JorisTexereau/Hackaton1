@@ -1,20 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 .coverPage {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Titan One';
+
 }
+
+
+.Fond{
+  position: absolute;
+  z-index: -100;
+  opacity: 0.8;
+  width: 100%;
+  height: 100vh;
+
+}
+
 
 .inputSearch {
   display: flex;
+  margin-left: 60px;
 }
 
 .inputSearch input {
   border: 1px solid #999;
   padding: 0.5rem;
+  margin-top: 30px;
   margin-right: 10px;
-  margin-top: 25px;
   width: 300px;
 }
 
@@ -31,6 +48,7 @@
 .no-suggestions {
   color: #999;
   padding: 0.5rem;
+
 }
 
 .suggestions {
@@ -59,3 +77,44 @@
 .suggestions li:not(:last-of-type) {
   border-bottom: 1px solid #999;
 }
+
+.BodyHome{
+  background-color: #DFDFF9;
+  opacity: 0,3;
+}
+
+
+.Loupe{
+  width: 10%;
+}
+
+.form-group{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Titan One';
+
+}
+
+.form-control{
+  border: 0;
+  border-radius: 0;
+  background: none;
+  background-color: #fae14274;
+  border-bottom: 2px solid #008f68;
+  width: 200%;
+  padding: 20px;
+  font-size: 18px;
+}
+.HeaderPage {
+  position: absolute;
+  top: 50px;
+}
+.Formulaire {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
