@@ -1,5 +1,6 @@
 import Header from "@components/Header";
 import "../App.css";
+import fond from "@assets/FondHome.jpg";
 
 
 
@@ -8,7 +9,7 @@ export default function Form() {
 
     return (
         <div className="FormulairePage">
-
+<img className="Fond" src={fond} alt="fond" />
         <div>
             <Header />
         </div>
