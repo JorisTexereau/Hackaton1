@@ -1,12 +1,13 @@
-import Home from "@pages/Home";
+import Events from "@pages/Events";
+
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <p>coucou</p>
+
+      <Events />
     </div>
   );
 }
