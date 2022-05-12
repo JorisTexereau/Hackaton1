@@ -2,17 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
 .coverPage {
-  height: 20vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Titan One';
+  background-image: url("assets\FondHome.jpg");
 
 }
+.FormulairePage{
+  height: 100vh;
+  background-image: url("assets\FondHome.jpg");
 
+}
 .inputSearch {
   display: flex;
+  margin-left: 60px;
 }
 
 .inputSearch input {
@@ -64,8 +70,41 @@
 
 .BodyHome{
   background-color: #DFDFF9;
-}
-
-.BodyHome img{
   opacity: 0,3;
 }
+
+
+.Loupe{
+  width: 10%;
+}
+
+.form-group{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Titan One';
+
+}
+
+.form-control{
+  border: 0;
+  border-radius: 0;
+  background: none;
+  background-color: #fae14274;
+  border-bottom: 2px solid #008f68;
+  width: 200%;
+  padding: 20px;
+  font-size: 18px;
+}
+.HeaderPage {
+  position: absolute;
+  top: 50px;
+}
+.Formulaire {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
