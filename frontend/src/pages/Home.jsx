@@ -1,6 +1,7 @@
 import Autocomplete from "@components/Autocomplete";
 import { Link } from "react-router-dom";
 import "../App.css";
+import sendImage from "@assets/send.png";
 import Header from "@components/Header";
 import fond from "@assets/FondHome.jpg";
 
@@ -71,7 +72,7 @@ export default function Home() {
           ]}
         />
         <Link to="/bordeaux">
-          <h3>GO</h3>
+          <h3><img src={sendImage} alt="" /></h3>
         </Link>
         </div>
       </div>
