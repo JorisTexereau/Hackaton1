@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .coverPage {
   height: 100vh;
   display: flex;
@@ -55,3 +56,6 @@
 .suggestions li:not(:last-of-type) {
   border-bottom: 1px solid #999;
 }
+=======
+
+>>>>>>> Stashed changes

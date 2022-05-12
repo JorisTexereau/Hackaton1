@@ -1,0 +1,10 @@
+.Carroussel{
+
+    display: flex;
+    justify-content: center;
+}
+
+.Veja{
+    width: 50%;
+    margin-top: 100px;
+}

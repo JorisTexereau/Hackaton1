@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import Autocomplete from "@components/Autocomplete";
 import { Link } from "react-router-dom";
 import "../App.css";
@@ -66,5 +67,19 @@ export default function Home() {
         </Link>
       </div>
     </div>
+=======
+
+import Header from "@components/Header";
+import Carroussel from "@components/Carroussel";
+
+export default function Home() {
+  return (
+    <>
+    <div>
+    <Header />
+    <Carroussel />
+    </div>
+    </>
+>>>>>>> Stashed changes
   );
 }
