@@ -13,6 +13,7 @@
 
 .inputSearch {
   display: flex;
+  margin-left: 280px;
 }
 
 .inputSearch input {
@@ -64,8 +65,10 @@
 
 .BodyHome{
   background-color: #DFDFF9;
+  opacity: 0,3;
 }
 
-.BodyHome img{
-  opacity: 0,3;
+
+.Loupe{
+  width: 10%;
 }

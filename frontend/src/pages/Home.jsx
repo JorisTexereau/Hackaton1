@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import Header from "@components/Header";
 import Carroussel from "@components/Carroussel";
+import Loupe from "@assets/loupe.png"
 
 export default function Home() {
   return (
@@ -66,7 +67,7 @@ export default function Home() {
           ]}
         />
         <Link to="/bordeaux">
-          <h3>GO</h3>
+          <h3><img className = "Loupe" src = {Loupe} alt = "Loupe"/></h3>
         </Link>
         
       </div>
