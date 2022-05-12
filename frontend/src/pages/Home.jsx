@@ -2,11 +2,14 @@ import Autocomplete from "@components/Autocomplete";
 import { Link } from "react-router-dom";
 import "../App.css";
 import Header from "@components/Header";
+import fond from "@assets/FondHome.jpg";
+
 
 export default function Home() {
   return (
     <>
     <div className="coverPage">
+    <img className="Fond" src={fond} alt="fond" />
     <div className="HeaderPage">
       <Header />
     </div>
