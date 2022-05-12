@@ -10,6 +10,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: -100px;
     
    }
   
@@ -17,9 +19,18 @@
     width: 20%;
   }
 
+  .feuille{
+    width: 10%;
+  }
+
   .login {
     width: 5%;
     margin-left: 200px;
     justify-content: flex-end;
+  }
+
+  .Ward{
+    font-size: 20px;
+    color: black;
   }
   

@@ -16,12 +16,12 @@ export default function Form() {
 
     <form className="Formulaire">
         <div className="form-group">
-            <label>Nom</label>
+            <label>Nom / Prénom</label>
             <input type="text" className="form-control" />
         </div>
 
         <div className="form-group">
-            <label>Prénom</label>
+            <label>Email</label>
             <input type="email" className="form-control" />
         </div>
 

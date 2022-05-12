@@ -4,6 +4,7 @@ import "../App.css";
 import sendImage from "@assets/send.png";
 import Header from "@components/Header";
 import fond from "@assets/FondHome.jpg";
+import Login from "@components/Login";
 
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
     <img className="Fond" src={fond} alt="fond" />
     <div className="HeaderPage">
       <Header />
+    </div>
+    <div>
+   <Login/>
     </div>
     
       <h1>Choose your city</h1>
