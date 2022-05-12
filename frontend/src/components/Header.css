@@ -3,18 +3,18 @@
 .Header {
     padding: 10px;
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    color: #21ED70;
     font-size: 80px;
     font-family: 'Titan One';
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
    }
   
   .logo {
-    width: 30%;
+    width: 20%;
   }
 
   .login {
