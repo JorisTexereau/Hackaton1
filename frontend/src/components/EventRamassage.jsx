@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./Event.css";
 import ramassage from "@assets/ramassage.jpeg";
 
 export default function Event2() {
@@ -7,6 +6,7 @@ export default function Event2() {
 
   function onClick() {
     setSubscribe(!noSubscribe);
+    alert("Votre code de participation vous a été envoyé par mail")
   }
 
   return (
@@ -15,6 +15,7 @@ export default function Event2() {
       <div>
         <h1> Collecte de déchets</h1>
       </div>
+      <p> Venez nous aider à nettoyer la superbe fôret communale de Cenon l'objectif de la journée est de ramasser 1 tonne de déchets</p>
       <p>Adresse de l'évenement: rue de la cité</p>
 
       <button

@@ -1,6 +1,8 @@
 
 import React from 'react';
 import './Card.css'
+import { Link } from "react-router-dom";
+
 
 function Card({ src, title, localisation, reward }) {
     return (
@@ -10,6 +12,7 @@ function Card({ src, title, localisation, reward }) {
                 <h2>{title}</h2>
                 <h4>{localisation}</h4>
                 <h3>{reward}</h3>
+                <Link to="/events"><h5><button>En savoir plus</button></h5></Link>
             </div>
         </div>
     )

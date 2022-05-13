@@ -106,10 +106,7 @@
   padding: 20px;
   font-size: 18px;
 }
-.HeaderPage {
-  position: absolute;
-  top: 50px;
-}
+
 .Formulaire {
   margin-top: 20px;
   display: flex;

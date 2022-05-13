@@ -9,7 +9,7 @@ export default function Event() {
   }
 
   return (
-    <div>
+    <div className="Plantation">
       <div className="event">
         <img src={plantation} alt="plantation" />
       </div>
