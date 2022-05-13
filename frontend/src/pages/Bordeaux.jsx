@@ -94,7 +94,7 @@ export default function Bordeaux() {
           <>
             <div className="home__section">
               <Card
-                src=".src/assets/ramassage.jpeg"
+                src="./src/assets/ramassage.jpeg"
                 title="Ramassage de déchets"
                 localisation="Cenon"
                 reward={130}

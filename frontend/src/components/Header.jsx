@@ -4,11 +4,11 @@ import "@components/Header.css"
 
 export default function Header() {
   return (
-    <div>
+    <>
       <header className="Header">
          <p className="Ward"> 250 </p><img className="feuille" src={feuille} alt="feuille" />
       </header>
-    </div>
+    </>
 
   );
 }

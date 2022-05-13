@@ -102,7 +102,6 @@ export default function Partenaires() {
         </div>
       </body>
 
-      <footer />
     </>
   );
 }
