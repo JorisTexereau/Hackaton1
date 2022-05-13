@@ -1,5 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+body{
+  margin: 0;
+}
+
+.Titre {
+
+  color: #008f68;
+  font-size: 80px;
+  font-family: 'Titan One';
+ }
+
+.logo {
+  width: 20%;
+}
+
 
 .coverPage {
   height: 100vh;
@@ -17,6 +32,10 @@
   opacity: 0.8;
   width: 100%;
   height: 100vh;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 
 }
 
@@ -29,7 +48,7 @@
 .inputSearch input {
   border: 1px solid #999;
   padding: 0.5rem;
-  margin-top: 30px;
+  margin-top: 22px;
   margin-right: 10px;
   width: 300px;
 }
@@ -63,12 +82,14 @@
 
 .suggestions li {
   padding: 0.5rem;
+  background-color: white;
+  color: black;
 }
 
 .suggestion-active,
 .suggestions li:hover {
   background-color: #008f68;
-  color: #fae042;
+  color: white;
   cursor: pointer;
   font-weight: 700;
 }
@@ -107,8 +128,8 @@
   font-size: 18px;
 }
 .HeaderPage {
-  position: absolute;
-  top: 50px;
+  display: flex;
+  align-items: center;
 }
 .Formulaire {
   margin-top: 20px;
@@ -117,3 +138,38 @@
   align-items: center;
 }
 
+.coButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  padding: 5px;
+}
+
+.cotedButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008f68;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  padding: 5px;
+}
+
+.login {
+  position: absolute;
+  top:150px;
+  right:150px;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#008f68;
+  display: flex;
+  justify-content: center;
+
+}
