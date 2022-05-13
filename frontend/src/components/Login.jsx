@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import "@components/styles.css"
 
-export default function Login() {
+export default function Login({bla}) {
   // React States
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -69,7 +69,7 @@ export default function Login() {
           {renderErrorMessage("pass")}
         </div>
         <div className="button-container">
-          <input type="submit" />
+          <input type="submit" onClick={bla} />
         </div>
       </form>
     </div>
