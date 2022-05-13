@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: #4d9078;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: none;
+  border-bottom: solid 2px;
+}
+
+.coin {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.paragraphe {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 10px;
+}
+
+.para1 {
+  margin-top: 70px;
+  margin-bottom: 120px;
+  font-size: 15px;
+}
+
+.para2 {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.para3 {
+  margin-top: 60px;
+  font-size: 15px;
+  margin-bottom: 70px;
+}
+
+.para4 {
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.boutique {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 400px;
+}
+
+#boutique2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5px;
+  border: solid 1px;
+  border-radius: 2%;
+}
+
+#boutique4 {
+  margin-bottom: 50px;
+  margin-left: 5px;
+  border: solid 1px;
+  border-radius: 2%;
+}
+
+#boutique3 {
+  margin-bottom: 50px;
+  margin-left: 5px;
+  border: solid 1px;
+  border-radius: 2%;
+}
+
+#boutique1 {
+  border: solid 1px;
+  margin-left: 5px;
+  border-radius: 2%;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .title {
+    font-size: 10px;
+  }
+
+  .para1 {
+    margin-top: 30px;
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+
+  .para2 {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+
+  .para3 {
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .para4 {
+    margin-top: 1px;
+    font-size: 10px;
+  }
+
+  .paragraphe {
+    font-size: x-small;
+  }
+
+  .boutique {
+    width: 200px;
+    transition: width 1s;
+  }
+
+  .coin {
+    font-size: 10px;
+  }
+}
