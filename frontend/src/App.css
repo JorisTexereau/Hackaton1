@@ -1,56 +1,120 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.coverPage {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Titan One';
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.Fond{
+  position: absolute;
+  z-index: -100;
+  opacity: 0.8;
+  width: 100%;
+  height: 100vh;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.inputSearch {
+  display: flex;
+  margin-left: 60px;
 }
 
-button {
-  font-size: calc(10px + 2vmin);
+.inputSearch input {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  margin-top: 30px;
+  margin-right: 10px;
+  width: 300px;
 }
+
+.inputSearch h3 {
+  padding: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.inputSearch img {
+  width: 30px;
+}
+
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+
+}
+
+.suggestions {
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  width: calc(300px + 1rem);
+}
+
+.suggestions li {
+  padding: 0.5rem;
+}
+
+.suggestion-active,
+.suggestions li:hover {
+  background-color: #008f68;
+  color: #fae042;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
+}
+
+.BodyHome{
+  background-color: #DFDFF9;
+  opacity: 0,3;
+}
+
+
+.Loupe{
+  width: 10%;
+}
+
+.form-group{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Titan One';
+
+}
+
+.form-control{
+  border: 0;
+  border-radius: 0;
+  background: none;
+  background-color: #fae14274;
+  border-bottom: 2px solid #008f68;
+  width: 200%;
+  padding: 20px;
+  font-size: 18px;
+}
+.HeaderPage {
+  position: absolute;
+  top: 50px;
+}
+.Formulaire {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+.Header {
+    padding: 10px;
+    text-align: center;
+    color: #21ED70;
+    font-size: 80px;
+    font-family: 'Titan One';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -100px;
+    
+   }
+  
+  .logo {
+    width: 20%;
+  }
+
+  .feuille{
+    width: 10%;
+  }
+
+  .login {
+    width: 5%;
+    margin-left: 200px;
+    justify-content: flex-end;
+  }
+
+  .Ward{
+    font-size: 20px;
+    color: black;
+  }
+  
