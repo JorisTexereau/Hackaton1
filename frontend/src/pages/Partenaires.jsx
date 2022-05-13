@@ -1,8 +1,14 @@
 import "./Partenaires.css";
+import  logo from "@assets/Green-Coin.png";
+import { Link } from "react-router-dom";
 
 export default function Partenaires() {
   return (
     <>
+     <div className="hpB">
+        <Link to="/"><img className="logo" src={logo} alt="logo" /></Link>
+        <p>Green Life </p>
+      </div>
       <div className="title">
         <h1>Les Boutiques Partenaires</h1>
       </div>

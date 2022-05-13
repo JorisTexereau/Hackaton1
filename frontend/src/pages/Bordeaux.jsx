@@ -3,6 +3,9 @@ import Card from "@components/Card";
 import React, { useState } from "react";
 import { Button } from "@material-ui/core";
 import Area from "@components/Area";
+import logo from "@assets/Green-Coin.png";
+import { Link } from "react-router-dom";
+
 
 export default function Bordeaux() {
   const [areaSize, setAreaSize] = useState(false);
@@ -16,6 +19,13 @@ export default function Bordeaux() {
 
   return (
     <>
+      <div className="hpB">
+        <Link to="/">
+          {" "}
+          <img className="logo" src={logo} alt="logo" />
+        </Link>
+        <p>Green Life </p>
+      </div>
       <div className="home">
         <div className="header-bordeaux">
           <div className="searchPage">
@@ -53,7 +63,7 @@ export default function Bordeaux() {
                 src="./src/assets/ramassage.jpeg"
                 title="Ramassage de déchets"
                 localisation="Cenon"
-                reward={130} 
+                reward={130}
               />
               <Card
                 src="./src/assets/plantation.jpeg"
@@ -99,13 +109,12 @@ export default function Bordeaux() {
                 localisation="Cenon"
                 reward={130}
               />
-                <Card
+              <Card
                 src="./src/assets/Réparer-vélo.jpg"
                 title="Réparation de vélo"
                 localisation="Bordeaux"
                 reward={300}
               />
-     
             </div>
           </>
         )}
