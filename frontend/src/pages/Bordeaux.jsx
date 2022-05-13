@@ -50,42 +50,42 @@ export default function Bordeaux() {
           <>
             <div className="home__section">
               <Card
-                src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
+                src="./src/assets/ramassage.jpeg"
                 title="Ramassage de déchets"
                 localisation="Cenon"
-                reward={130}
+                reward={130} 
               />
               <Card
-                src="https://a0.muscache.com/im/pictures/15159c9c-9cf1-400e-b809-4e13f286fa38.jpg?im_w=720"
-                title="Unique stays"
-                localisation="Bordeaux"
-                reward={130}
-              />
-              <Card
-                src="https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720"
-                title="Entire homes"
+                src="./src/assets/plantation.jpeg"
+                title="Plantation d'arbres"
                 localisation="Mérignac"
-                reward={130}
+                reward={70}
+              />
+              <Card
+                src="./src/assets/Réparer-vélo.jpg"
+                title="Réparation de vélo"
+                localisation="Bordeaux"
+                reward={300}
               />
             </div>
             <div className="home__section">
               <Card
-                src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
-                title="3 Bedroom Flat in Bournemouth"
+                src="./src/assets/recolte.jpeg"
+                title="Récolte de fruits"
                 localisation="Cestas"
-                reward={130}
+                reward={180}
               />
               <Card
-                src="https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg"
-                title="Penthouse in London"
-                localisation="Léognan"
-                reward={130}
+                src="./src/assets/excursion.jpg"
+                title="Excursion en forêt pour sensibilisation"
+                localisation="Bois de Boulogne"
+                reward={40}
               />
               <Card
-                src="https://media.nomadicmatt.com/2018/apartment.jpg"
-                title="1 Bedroom apartment"
+                src="./src/assets/plantation.jpeg"
+                title="Ramassage de déchets en bord de mer "
                 localisation="Arcachon"
-                reward={130}
+                reward={120}
               />
             </div>
           </>
@@ -94,11 +94,18 @@ export default function Bordeaux() {
           <>
             <div className="home__section">
               <Card
-                src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
+                src="./src/assets/ramassage.jpeg"
                 title="Ramassage de déchets"
                 localisation="Cenon"
                 reward={130}
               />
+                <Card
+                src="./src/assets/Réparer-vélo.jpg"
+                title="Réparation de vélo"
+                localisation="Bordeaux"
+                reward={300}
+              />
+     
             </div>
           </>
         )}

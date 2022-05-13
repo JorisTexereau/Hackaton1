@@ -23,6 +23,7 @@ export default function Home() {
 
   return (
     <>
+    <Link to="/Partenaires"><h2>Nos Boutiques Partenaires</h2></Link>
       <div className="coverPage">
         <img className="Fond" src={fond} alt="fond" />
         <div className="HeaderPage">

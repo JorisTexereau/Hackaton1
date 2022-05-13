@@ -137,6 +137,9 @@ body{
   flex-direction: column;
   align-items: center;
 }
+.pricing{
+  width: 400px;
+}
 
 .coButton {
   display: flex;
@@ -164,4 +167,12 @@ body{
   position: absolute;
   top:150px;
   right:150px;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#008f68;
+  display: flex;
+  justify-content: center;
+
 }

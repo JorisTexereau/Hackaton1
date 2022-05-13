@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
 .Header {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    color: #21ED70;
+    color: #088237;
     font-size: 80px;
     font-family: 'Titan One';
     display: flex;
@@ -12,6 +12,7 @@
     justify-content: center;
     position: relative;
     top: -100px;
+    margin-top: 20px;
     
    }
   

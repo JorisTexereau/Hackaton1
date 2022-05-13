@@ -9,10 +9,13 @@ export default function Event3() {
   }
 
   return (
-    <div>
+    <div className="Recolte">
       <div>
-        <img src={recolte} alt="ramassage" />
-        <h1> Recolte de fruits bio </h1>
+        <img className="imgRecolte" src={recolte} alt="ramassage" />
+        
+      </div>
+      <div>
+<h1> Recolte de fruits bio </h1>
       </div>
 
       <p>Adresse de l'évenement: rue de la cité</p>

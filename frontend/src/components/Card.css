@@ -10,6 +10,17 @@
   .card:hover {
     transform: scale(1.07);
   }
+
+  .dolls{
+    display: flex;
+    align-items: center;
+  }
+
+  .dolls img {
+    width:30px;
+    height: 30px;
+    padding-left: 5px;
+  }
   
   .card > img {
     object-fit: fill;
