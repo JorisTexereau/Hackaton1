@@ -39,7 +39,7 @@ export default function Bordeaux() {
                 <div className="AreaBordeaux">
                   <Area />
                   <button className="buttonBordeaux" onClick={action1}>
-                    Test
+                    Adjust area
                   </button>
                 </div>
               </>
@@ -59,13 +59,13 @@ export default function Bordeaux() {
                 src="./src/assets/plantation.jpeg"
                 title="Plantation d'arbres"
                 localisation="Mérignac"
-                reward={130}
+                reward={70}
               />
               <Card
                 src="./src/assets/Réparer-vélo.jpg"
                 title="Réparation de vélo"
                 localisation="Bordeaux"
-                reward={130}
+                reward={300}
               />
             </div>
             <div className="home__section">
@@ -73,19 +73,19 @@ export default function Bordeaux() {
                 src="./src/assets/recolte.jpeg"
                 title="Récolte de fruits"
                 localisation="Cestas"
-                reward={130}
+                reward={180}
               />
               <Card
                 src="./src/assets/excursion.jpg"
                 title="Excursion en forêt pour sensibilisation"
                 localisation="Bois de Boulogne"
-                reward={130}
+                reward={40}
               />
               <Card
-                src="./src/assets/plages-nettoyage.jpg"
+                src="./src/assets/plantation.jpeg"
                 title="Ramassage de déchets en bord de mer "
                 localisation="Arcachon"
-                reward={130}
+                reward={120}
               />
             </div>
           </>
@@ -99,6 +99,13 @@ export default function Bordeaux() {
                 localisation="Cenon"
                 reward={130}
               />
+                <Card
+                src="./src/assets/Réparer-vélo.jpg"
+                title="Réparation de vélo"
+                localisation="Bordeaux"
+                reward={300}
+              />
+     
             </div>
           </>
         )}

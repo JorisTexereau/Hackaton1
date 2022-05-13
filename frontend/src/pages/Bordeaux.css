@@ -5,9 +5,17 @@
 
 
   .buttonBordeaux {
-    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #008f68;
+    opacity: 0.7;
+    border: none;
   }
 
+  .pricing {
+    width:700px;
+  }
   
   .searchPage__info {
     padding: 20px;
