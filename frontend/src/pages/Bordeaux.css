@@ -5,9 +5,14 @@
 
 
   .buttonBordeaux {
-    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
   }
 
+  .pricing {
+    width:400px;
+  }
   
   .searchPage__info {
     padding: 20px;
@@ -32,3 +37,4 @@
 display: flex;
 justify-content: space-around;
   }
+

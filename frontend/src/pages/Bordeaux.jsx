@@ -39,7 +39,7 @@ export default function Bordeaux() {
                 <div className="AreaBordeaux">
                   <Area />
                   <button className="buttonBordeaux" onClick={action1}>
-                    Test
+                    Adjust area
                   </button>
                 </div>
               </>
