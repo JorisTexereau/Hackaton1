@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <header className="Header">
-        <p className="Titre">GREEN LIFE </p> <img className="logo" src={logo} alt="logo" /> 
+         <p className="Ward"> 250 </p><img className="feuille" src={feuille} alt="feuille" />
       </header>
     </>
 

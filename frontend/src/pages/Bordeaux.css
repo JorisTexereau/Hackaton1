@@ -27,3 +27,8 @@
     text-transform: inherit;
     margin: 5px;
   }
+
+  .AreaBordeaux {
+display: flex;
+justify-content: space-around;
+  }
